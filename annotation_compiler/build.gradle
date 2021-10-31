@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+
+    implementation fileTree(dir:'libs',includes: ['*.jar'])
+    implementation project(path: ':annotations')
+    /**
+     * 第一步：添加如下库，这个是在电脑上自动生成代码；
+     */
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc4'
+    compileOnly 'com.google.auto.service:auto-service:1.0-rc4'
+
+}
