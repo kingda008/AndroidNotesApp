@@ -11,6 +11,7 @@ dependencies {
 
     implementation fileTree(dir:'libs',includes: ['*.jar'])
     implementation project(path: ':annotations')
+
     /**
      * 第一步：添加如下库，这个是在电脑上自动生成代码；
      */
