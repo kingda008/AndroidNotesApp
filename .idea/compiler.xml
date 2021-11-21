@@ -19,6 +19,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="Notes.app" target="11" />
+      <module name="Notes.BaseLib" target="11" />
+      <module name="Notes.Componentization" target="11" />
+      <module name="Notes.dagger2" target="11" />
+      <module name="Notes.Hilt" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

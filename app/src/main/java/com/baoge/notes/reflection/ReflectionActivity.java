@@ -3,11 +3,11 @@ package com.baoge.notes.reflection;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.baoge.notes.LogUtil;
+
+import com.baoge.baselib.LogUtil;
 import com.baoge.notes.R;
 
 import java.lang.annotation.Annotation;

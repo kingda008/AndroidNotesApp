@@ -2,3 +2,7 @@ include ':annotations'
 include ':annotation_compiler'
 include ':app'
 rootProject.name = "Notes"
+include ':dagger2'
+include ':BaseLib'
+include ':Hilt'
+include ':Componentization'

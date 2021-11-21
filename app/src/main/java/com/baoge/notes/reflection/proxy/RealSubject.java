@@ -1,6 +1,7 @@
 package com.baoge.notes.reflection.proxy;
 
-import com.baoge.notes.LogUtil;
+
+import com.baoge.baselib.LogUtil;
 
 /**
  * 这个是被代理类，实现了接口的所有方法
